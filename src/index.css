@@ -900,27 +900,16 @@ section {
   display: flex;
   gap: 12px;
   width: 100%;
-}
-
-.project-buttons.centered {
   justify-content: center;
-}
-
-.project-buttons.centered .project-btn {
-  flex: 0 1 auto;
-  min-width: 160px;
-}
-
-.project-btn-placeholder {
-  flex: 1;
 }
 
 .project-btn {
-  flex: 1;
+  flex: 0 1 auto;
+  min-width: 130px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 16px;
+  padding: 10px 20px;
   font-size: 0.9rem;
   font-weight: 600;
   border-radius: 30px;
