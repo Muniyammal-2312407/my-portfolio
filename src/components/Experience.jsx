@@ -46,12 +46,6 @@ const Experience = () => {
                 </ul>
 
                 <div className="experience-footer">
-                  <div className="experience-tech">
-                    {exp.technologies.map((tech, i) => (
-                      <span key={i} className="tech-badge">{tech}</span>
-                    ))}
-                  </div>
-
                   {exp.certificate && (
                     <a
                       href={exp.certificate}
